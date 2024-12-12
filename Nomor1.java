@@ -2,8 +2,8 @@ import java.util.Scanner;
 
 public class Nomor1 {
 
-    public static void main(String[] args){
-        Scanner input = new Scanner(System.in);
+public static void main(String[] args){
+Scanner input = new Scanner(System.in);
         
         /* Pekerjaan anda mulai dari sini */
          System.out.print("Masukkan nilai n: ");
@@ -12,7 +12,7 @@ public class Nomor1 {
         tampilkanAngkaGanjil(n);
     }
 
-    public static void tampilkanAngkaGanjil(int n) {
+public static void tampilkanAngkaGanjil(int n) {
         System.out.println("Angka ganjil dari 0 hingga " + n + ":");
         for (int i = 1; i <= n; i += 2) {
             System.out.print(i + " ");
@@ -20,6 +20,5 @@ public class Nomor1 {
         /* Pekerjaan anda berakhir sini */
 
         System.out.println(Nomor1.class.getDeclaredMethods().length); 
-    }
-    
+    } 
 }
