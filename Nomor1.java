@@ -1,5 +1,4 @@
 import java.util.Scanner;
-
 public class Nomor1 {
 
 public static void main(String[] args){
@@ -21,4 +20,5 @@ public static void tampilkanAngkaGanjil(int n) {
 
         System.out.println(Nomor1.class.getDeclaredMethods().length); 
     } 
-}
+       
+        }
