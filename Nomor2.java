@@ -1,3 +1,4 @@
+
 import java.util.ArrayList;
 import java.util.Scanner;
 
@@ -59,6 +60,8 @@ public class Nomor2 {
             return (int) (totalBelanja * 0.1);
             
  }
+        
 }
+   
 }
 
