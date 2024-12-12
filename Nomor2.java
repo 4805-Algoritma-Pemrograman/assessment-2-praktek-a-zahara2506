@@ -58,8 +58,7 @@ public class Nomor2 {
         } else {
             return (int) (totalBelanja * 0.1);
             
- }
-        
+ }     
 }   
 }
 
